@@ -1,0 +1,58 @@
+.changebox{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    background-color: #1d1b1b;
+    width:270px;
+    padding: 30px;
+    border-radius: 20px;
+    text-align: center;
+    opacity: 0.8;
+    transition: 0.3s
+}
+.changebox:hover{
+    opacity: 1;
+}
+.changebox h1{
+    font-style: italic;
+    color: #ec4d37;
+    font-weight: bold;
+}
+.changebox p{
+    color: #ec4d37;
+    font-size: 17px;
+}
+.changebox input{
+    font-style: italic;
+    margin:10px;
+    padding:10px;
+}
+.changebox input[placeholder]{
+    text-align: center;
+}
+.changebox input[type="password"]{
+    font-size: 15px;
+    width: 180px;
+    color: #fff;
+    border: 2px solid chartreuse;
+    border-radius: 20px;
+    background-color: #1d1b1b;
+    transition: 0.30s;
+}
+.changebox input[type="password"]:hover{
+    width: 230px;
+    border-color: #ec4d37;
+}
+.changebox input[type="submit"]{
+    color: #fff;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: #1d1b1b;
+    border: 2px solid chartreuse;
+    text-decoration: none;
+}
+.changebox input[type="submit"]:hover{
+    background-color: #ec4d37;
+    color: #fff;
+}

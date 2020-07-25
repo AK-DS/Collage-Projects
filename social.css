@@ -1,0 +1,29 @@
+
+.bottom_line{
+    right: 0px;
+    position: absolute;
+    text-align:center;
+}
+.social_btn{
+    display: inline-block;
+    width:60px;
+    height:60px;
+    background:#f1f1f1;
+    margin:10px;
+    border-radius:30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color:#3498db;
+}
+.social_btn i{
+    line-height:60px;
+    font-size:23px;
+}
+.social_btn:hover{
+    color:#f1f1f1;
+    background-color: #3498db;
+    transition: 0.2s;
+}
+.social_btn:hover > i{
+    transform: scale(1.3);
+}
+

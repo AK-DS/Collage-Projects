@@ -1,0 +1,202 @@
+body{
+padding: 0;
+background-image:url('book.jpg');
+background-size: cover;
+}
+.topname{
+    margin-top: 15px;
+    margin-right: 5px;
+    float: right;
+    color:#0c9400;
+    font-style: italic;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* Navigation Bar*/
+.nav_bar{
+    padding: 10px;
+}
+
+.btn{
+    border: none;
+    margin:5px;
+    padding:20px;
+    width: 150px;
+    font-family: sans-serif;
+    border-radius: 6px;
+    cursor:pointer;
+    color:#fff;
+    background-size:200%;
+}
+
+.btn1{
+    background-image:linear-gradient(to left,#ffc312,#ee5a24,#ffc312);
+}
+
+.btn2{
+    background-image:linear-gradient(to left,#c4e358,#009432,#c4e538);
+}
+.btn3{
+    background-image:linear-gradient(to left,#12cbc4,#0652dd,#12cbc4);
+}
+.btn4{
+    background-image:linear-gradient(to left,#fda7df,#9980fa,#fda7df);
+}
+
+.btn5{
+    float:right;
+    background-image:linear-gradient(to left,#E6d72a,#9bc01c,#E6d72a);
+}
+
+.btn6{
+    float:right;
+    background-image:linear-gradient(to left,#cb0000,#4d85bd,#cb0000);
+}
+
+.btn:hover{
+    background-position:right;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+/* Login Form*/
+.box{
+    top: 55%;
+    left: 50%;
+    transform: translate(-55%,-50%);
+    opacity: 0.4;
+    color: white;
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    background: #242582;
+    text-align: center;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.box:hover{
+    opacity:1;
+}
+.box h1{
+    color: white;
+    font-weight: bold;
+}
+.box a{
+    color: white;
+    text-decoration:none;
+}
+.box input[type="text"],.box input[type="password"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    border-radius: 25px;
+    transition: 0.30s;
+}
+.box input[type="text"]:hover,.box input[type="password"]:hover{
+    width: 270px;
+    border-color:#f64c72 ;
+}
+
+.box input[type=submit]{
+    border:0;
+    color: white;
+    background: none;
+    display: block;
+    margin: 5px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 150px;
+    outline: none;
+    border-radius: 25px;
+    transition: 0.30s;
+}
+
+.box input[type=submit]:hover{
+    background-color: #f64c72;
+}
+
+
+.box input[placeholder],.box input[value]{
+    font-weight: 50px;
+    color: white;
+}
+
+
+
+
+/* Search Bar */
+.search_box{
+    position:relative;
+    margin-right:15px;
+    float:right;
+    background:#2f3640;
+    height:40px;
+    border-radius: 40px;
+    padding:10px;
+}
+.search_box:hover > .search_text{
+    width:240px;
+    padding:0 6px;
+}
+
+.search_box:hover > .search_btn{
+    background:white;
+
+}
+.search_btn{
+    float:right;
+    color:#e84118;
+    width:40px;
+    height:40px;
+    border-radius: 50%;
+    background:#2f3640;
+    display:flex;
+    text-decoration: none;
+    justify-content:center;
+    align-items:center;
+    transition: 0.4s;
+}
+.search_text{
+    border:none;
+    background:none;
+    outline:none;
+    float:left;
+    padding:0;
+    color:white;
+    font-size:16px;
+    transition: 0.4s;
+    line-height: 40px;
+    width:0px;
+}
+
+
+/* 
+This Code Is Currently Not Under Use
+Removing arrows From Ph No.
+*/
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+ 
+input[type="number"] {
+    -moz-appearance: textfield;
+}
